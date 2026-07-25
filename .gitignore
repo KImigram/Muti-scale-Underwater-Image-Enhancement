@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test outputs (keep folder structure but ignore generated images)
+tests/test_images/results/*
+tests/test_images/results_mul/*
+!tests/test_images/results/.gitkeep
+!tests/test_images/results_mul/.gitkeep
+
+# Keep original test images (optional — remove if you want to track them)
+# tests/test_images/original/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+*.pyc
+*.docx
