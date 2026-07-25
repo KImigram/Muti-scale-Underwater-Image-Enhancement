@@ -30,7 +30,7 @@ A multi-scale underwater image enhancement system that employs a **6-stage casca
 - Auto-detection of water type (yellow / green / neutral) for adaptive parameter selection
 - Objective quality metrics: **UIQM** (UICM, UISM, UIConM), **UCIQE**, PSNR, SSIM
 - Dual-mode operation: CLI batch processing + GUI with real-time preview
-- Test images based on the **UIEB** Dataset
+- Test images based on the **UIEB Dataset** ([Dowload address](https://li-chongyi.github.io/proj_benchmark.html))
 
 ---
 
@@ -271,6 +271,7 @@ python gui.py
 - Panetta, K., Gao, C., & Agaian, S. (2016). *Human-Visual-System-Inspired Underwater Image Quality Measures*. IEEE JOE.
 - Yang, M., & Sowmya, A. (2015). *An Underwater Color Image Quality Evaluation Metric*. IEEE TIP.
 - Pizer, S. M., et al. (1987). *Adaptive Histogram Equalization and its Variations*. Computer Vision, Graphics, and Image Processing.
+- C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, D. Tao, “An Underwater Image Enhancement Benchmark Dataset and Beyond,” IEEE Trans. Image Process., vol. 29, pp.4376-4389, 2019.
 
 ---
 
